@@ -1,0 +1,82 @@
+/* Estilos globais e variáveis */
+:root {
+  --primary-color: #0080ff;
+  --background-color: #f5f5f5;
+  --text-color: #333;
+  --border-radius: 8px;
+  --box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  --font-family: 'Roboto', sans-serif;
+}
+
+/* Estilos globais */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  font-family: var(--font-family);
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+
+/* Estilos específicos para a página Home */
+bg-white {
+  box-shadow: var(--box-shadow);
+  width: 130%;
+
+}
+
+/* Estilo do ícone redondo com a foto */
+relative {
+  border-radius: 50%;
+}
+
+rounded-full {
+  border-radius: 50%;
+}
+
+/* Estilos adicionais conforme necessário */
+text-3xl {
+  font-size: 1.875rem;
+}
+
+text-lg {
+  font-size: 1.125rem;
+}
+
+.text-xl {
+  font-size: 1.4rem;
+}
+
+img{
+  justify-content: center;
+  float: right;
+
+}
+
+button{
+  font-size: 0.80rem;
+  float: right;
+  display: flex;
+  padding: 12px 24px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+  background: linear-gradient(45deg, #6d28d9, #ec7148); /* Gradiente de fundo */
+  border: none;
+  border-radius: 9999px; /* Bordas arredondadas */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Sombra */
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
